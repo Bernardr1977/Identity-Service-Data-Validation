@@ -56,11 +56,11 @@ java src/main/java/org/example/PersonDetails.java
 Output Reports
 After execution, the system generates HTML reports under the output folder:
 
-📂 target/output/valid-records.html → Contains valid records.
+📂 src/main/resources/Output/valid-records.html → Contains valid records.
 
-📂 target/output/invalid-records.html → Lists invalid records with reasons.
+📂 src/main/resources/Output/invalid-records.html → Lists invalid records with reasons.
 
-📂 target/output/dashboard-summary.html → Overview of validation results.
+📂 src/main/resources/Output/dashboard-summary.html → Overview of validation results.
 
 Conclusion
 
