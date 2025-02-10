@@ -47,7 +47,7 @@ How to Run the Application
 
 Clone the Repository
 
-git clone <repo-url>
+git clone [<repo-url>](https://github.com/Bernardr1977/Identity-Service-Data-Validation.git)
 
 cd \src\main\java\org\example\
 
