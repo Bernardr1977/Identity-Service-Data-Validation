@@ -113,7 +113,7 @@ public class PersonService implements PublishPersonDetails {
     }
 
     public void publishHTMLFiles(StringBuilder htmlContent, String fileName) throws IOException {
-        try (FileWriter writer = new FileWriter("target/Output/" + fileName + ".html")) {
+        try (FileWriter writer = new FileWriter("src/main/resources/Output/" + fileName + ".html")) {
             writer.write(htmlContent.toString());
         }
     }
